@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FREE CRM Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="W3 school Application Test(failed)">
+    <classes>
+      <class name="com.qa.testPage.LearnJavaPageTest">
+        <methods>
+          <include name="verifyLearnJavaPage"/>
+          <include name="getTopicsofLearnJava"/>
+        </methods>
+      </class> <!-- com.qa.testPage.LearnJavaPageTest -->
+      <class name="com.qa.testPage.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLearnJavaPage"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.qa.testPage.HomePageTest -->
+    </classes>
+  </test> <!-- W3 school Application Test(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
